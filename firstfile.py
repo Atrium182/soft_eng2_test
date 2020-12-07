@@ -2,4 +2,10 @@ print("Hello World")
 print("Hello Earth")
 print("Hello, Jupiter")
 print("Hello Uranus!")
-print("Yo")
+
+def sum(x,y):
+    return x + y
+
+
+if __name__ == "__main__":
+    print(sum(4,5))
